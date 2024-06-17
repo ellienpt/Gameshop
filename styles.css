@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+}
+.Title {
+  color: white;
+  background-color: black;
+  text-decoration: bold;
+  text-transform: capitalize;
+  padding: center;
+  text-align: center;
+  font-size: 150 px;
+}
+.Title img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  margin: 100 px;
+}
+.navigation {
+  color: white;
+  background-color: rgb(6, 22, 38);
+  padding: center;
+  text-align: center;
+  font-size: 100 px;
+  line-height: 1.5cm;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+}
+.navigation ul {
+  color: white;
+  display: flex;
+  gap: 50px;
+  position: right;
+  justify-content: space-between;
+  align-items: right;
+  font-size: 30 pt;
+  list-style: none;
+  text-transform: capitalize;
+}
+.navigation searchbar {
+  size: 70;
+  length: 200 px;
+  width: 100%;
+  display: block;
+  text-align: right;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 14px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.search-container img {
+  height: 20px;
+  width: 20 px;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1b2838;
+  color: aliceblue;
+  padding: left 10px;
+}
+.categoryItem {
+  margin-top: 10 px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b2838;
+  width: 700px;
+  list-style: none;
+  color: aliceblue;
+  background-color: rgb(6, 22, 38);
+  text-transform: capitalize;
+}
+. categoryItem li {
+  display: flex;
+  align-conntent: space-around;
+  margin-top: 1 em;
+  padding-top: 1 em;
+  border-top: 2 px;
+  cursor: pointer;
+}
+.gamecards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.Gametitle {
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: gray;
+  border: 1px solid white;
+}
+.Gametitle div {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  border-radius: 10px;
+}
+.Gametitle img {
+  width: 200;
+  height: auto;
+}
+.information {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20 px;
+}
+.footnote {
+  background-color: #1b2838;
+  color: aliceblue;
+}
+
+.endnote {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 50px;
+  background-color: #1b2838;
+}
+.endnote ul {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.ten {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
